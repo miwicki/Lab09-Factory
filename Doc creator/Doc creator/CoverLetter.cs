@@ -17,7 +17,7 @@ namespace Product
 
         public override void Print()
         {
-            Console.WriteLine($"Cover Letter: Page {PageNum} ");
+            Console.WriteLine($"Cover Letter: Page {PageNumber} ");
             Console.WriteLine("Dear: " + AddressedTo);
             Console.WriteLine(BodyText);
             Console.WriteLine("Sincerely, " + Signature);
