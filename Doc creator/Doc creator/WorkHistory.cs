@@ -7,7 +7,7 @@ namespace Product
     public class WorkHistory : Page
     {
         public string CompanyName { get; set; } = "Company";
-        public string JobTitle { get; set; } = "Support Engineer";
+        public string JobTitle { get; set; } = "Title";
         
 
         public WorkHistory(int pageNumber)
